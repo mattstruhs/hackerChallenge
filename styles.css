@@ -1,33 +1,56 @@
 html{
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   /* width: 800px; */
 }
 
-img{
-  height: 20px;
+/* img{
+  height: 400px;
   width: 350px;
+} */
+
+#test img{
+  height: 50px;
+  width: 50px;
 }
+
+#highlights img{
+  height: 150px;
+  width: 150px;
+}
+
 #test {
   background-color: aquamarine;
   height: 200px;
-
 }
 
 .locations {
-  height: 200px;
+  height: 600px;
   border-radius: 20px;
 }
 
 #highlights {
+  display: flex;
+  align-content: space-around;
+  flex-direction: row;
+  align-items: center;
   background-color: blueviolet;
-  height: 200px;
+  height: 600px;
 }
 
 #testimonials {
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+  align-items: center;
   background-color: pink;
-  height: 200px;
+  height: 600px;
+}
+
+#testimonials img{
+  height: 450px;
+  width: 200px;
 }
 
 #join-newsletter {
