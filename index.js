@@ -1,5 +1,4 @@
-const test = document.getElementById("#test-button");
-test.addEventListener("click", (event) => {
-  console.log("DOM works!!", event);
-  }
-});
+const test = document.getElementById("test-button");
+test.onclick = function () {
+  console.log("DOM Works!!");
+};
