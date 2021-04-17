@@ -7,19 +7,20 @@
   border-radius: 20px;
 }
 
-#locationA {
+#highlights {
   background-color: blueviolet;
 }
 
-#locationB {
+#testimonials {
   background-color: pink;
 }
 
-#locationC {
+#join-newsletter {
   background-color: green;
 }
 
 #navbar {
   display: flex;
   list-style: none;
+  justify-content: space-between;
 }
