@@ -1,18 +1,33 @@
+html{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 800px; */
+}
+
+img{
+  height: 20px;
+  width: 350px;
+}
 #test {
   background-color: aquamarine;
+  height: 200px;
+
 }
 
 .locations {
-  height: 800px;
+  height: 200px;
   border-radius: 20px;
 }
 
 #highlights {
   background-color: blueviolet;
+  height: 200px;
 }
 
 #testimonials {
   background-color: pink;
+  height: 200px;
 }
 
 #join-newsletter {
