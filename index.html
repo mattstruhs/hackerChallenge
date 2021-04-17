@@ -5,51 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hackathon</title>
-<<<<<<< HEAD
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <link rel="stylesheet" href="./styles.css" />
+    <ul id="navbar">
+      <a href="#locationA">
+        <li>location A</li>
+      </a>
+      <a href="#locationB">
+        <li>location B</li>
+      </a>
+      <a href="#locationC">
+        <li>location C</li>
+      </a>
+    </ul>
+
     <div id="test">Home Page</div>
     <button id="test-button" class="btn">Click Me</button>
 
-    <script type="javascript" src="index.js"></script>
-  </body>
-</html>
-=======
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-    <ul id='navbar'>
-        <a href="#locationA">
-          <li>location A</li>
-        </a>
-        <a href="#locationB">
-          <li>location B</li>
-        </a>
-        <a href="#locationC">
-          <li>location C</li>
-        </a>
-      </ul>
+    <div id="locationA" class="locations">Location A</div>
 
-    <div id="test">
-        Home Page
-    </div>
-    <button id="test-button" class="btn">Click Me</button>
-
-
-    <div id="locationA" class="locations">
-        Location A
-    </div>
-
-    <div id="locationB" class="locations">
-        Location B
-    </div>
+    <div id="locationB" class="locations">Location B</div>
 
     <div id="locationC" class="locations">
-        Location C
+      Location C
+
+      <form action="submit" method="">
+        <label for="name"> Name </label>
+        <input type="text" name="name" value="First Last" />
+        <label for="occupation"> Email </label>
+        <input type="email" name="email" value="email" />
+        <button type="submit">Submit</button>
+      </form>
     </div>
 
     <script type="javascript" src="./index.js"></script>
-</body>
+  </body>
 </html>
->>>>>>> 4aef9fbb3a39a053b750ca833e74a85fed2c9113
