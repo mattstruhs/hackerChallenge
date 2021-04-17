@@ -1,3 +1,10 @@
+html{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+}
+
 #test {
   background-color: aquamarine;
 }
@@ -13,6 +20,7 @@
 
 #testimonials {
   background-color: pink;
+  height: 200px;
 }
 
 #join-newsletter {
