@@ -3,6 +3,23 @@
 }
 
 .locations{
-    background-color: blueviolet;
     height: 800px;
+    border-radius: 20px;
+}
+
+#locationA{
+    background-color: blueviolet;
+}
+
+#locationB{
+    background-color: pink;
+}
+
+#locationC{
+    background-color: green;
+}
+
+#navbar{
+    display: flex;
+    list-style: none;
 }
